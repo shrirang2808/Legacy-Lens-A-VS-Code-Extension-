@@ -1,7 +1,7 @@
 # LegacyLens: A VS Code Extension for Python 2 Codebase Analysis
 
 ## Project Summary
-LegacyLens is a Visual Studio Code extension designed to assist developers in the challenging task of modernizing legacy Python 2 codebases. It provides two core functionalities: generating unit test scaffolds and visualizing the project's architectural structure. By automating these initial, time-consuming steps, LegacyLens helps streamline the refactoring and migration process.
+LegacyLens is a Visual Studio Code extension designed to assist developers in the challenging task of modernizing legacy Python 2 codebases to Python 3. It provides two core functionalities: generating unit test scaffolds and visualizing the project's architectural structure. By automating these initial, time-consuming steps, LegacyLens helps streamline the refactoring and migration process.
 
 ## Tech Stack
 The extension is built using the following technologies:
