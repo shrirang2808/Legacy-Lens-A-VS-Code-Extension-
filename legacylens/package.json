@@ -1,0 +1,47 @@
+{
+  "name": "legacylens",
+  "displayName": "LegacyLens",
+  "description": "A Python 2 to Python 3 modernization assistant.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+        {
+            "command": "legacylens.helloWorld",
+            "title": "Hello World"
+        },
+        {
+            "command": "legacylens.analyzeCodebase",
+            "title": "LegacyLens: Analyze Python 2 Codebase"
+        },
+        {
+            "command": "legacylens.visualizeArchitecture",
+            "title": "LegacyLens: Visualize Architecture"
+        },
+         {
+            "command": "legacylens.generateTests",
+            "title": "LegacyLens: Generate Unit Tests"
+        }
+    ]
+},
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.102.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.32.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
